@@ -1,4 +1,4 @@
-# Experiments for "The Lifesight Agent Harness" (preprint, version 2, 5 November 2026)
+# Experiments for "The Lifesight Agent Harness" (preprint, version 3, 5 November 2026)
 
 Every number in Sections 6.1 to 6.3 of the paper, Table 6's model predictions and Figures 3 and 4 come from the
 scripts in this folder. Each script writes its results beside itself as JSON and Markdown and keeps its run log, so
@@ -41,7 +41,9 @@ repository (`lifesight-platform-mia-agents`, private at the time of writing; the
 | `fixture_census.py`, `fixture_census.md` | base-eligible figures and values per captured read, Table 7 |
 | `cap_study_named.py`, `cap_study_named_results.{json,md}`, `cap_study_named_run.log` | named derivation, Section 6.3 |
 | `l1_named_derivation.patch` | the named-derivation rule and its tests, against harness commit `b8153f83` |
-| `make_figures.py`, `figure_e1_false_accept.svg`, `make_figures_real.py`, `figure_real_cap.svg` | Figures 3 and 4 |
+| `trace_named_rejections.py` | why the residual honest named sums of Section 6.3 are rejected (collisions and half-cent ties) |
+| `companion_notes/` | the reading notes behind Sections 2 and 7: every source, quote and date read |
+| `make_figures.py`, `figure_e1_false_accept.svg`, `make_figures_real.py`, `figure_real_cap.svg` | Figures 3 and 4 (Figure 3 carries 95% CI whiskers over seeds) |
 | `assemble.py`, `build_paper.py` | the paper's build |
 
 Licence: CC BY 4.0 (`LICENSE`); the harness is not part of this work.

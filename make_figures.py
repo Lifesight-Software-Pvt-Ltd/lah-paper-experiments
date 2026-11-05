@@ -1,7 +1,7 @@
 """Draw the paper's data figure from provenance_study_results.json as an SVG (no dependencies).
 
 Figure: false-accept rate of fabricated six-figure amounts against the number of tool results,
-three arms, log-scaled y axis, direct labels plus a legend, colours from the validated
+three arms, log-scaled y axis, 95% CI whiskers over seeds, direct labels plus a legend, colours from the validated
 reference palette (first three categorical slots).
 """
 import json
@@ -45,6 +45,12 @@ for key, label, color in arms:
     out.append(f'<path d="{path}" fill="none" stroke="{color}" stroke-width="2" stroke-linejoin="round"/>')
     for r, (x, y) in zip(rows, pts):
         m, c = r["e1_accept"]["mean"], r["e1_accept"]["ci95"]
+        # 95% confidence interval over seeds as a whisker (the lower end is clipped at the axis floor)
+        if c > 0:
+            y_hi, y_lo = ypix(m + c), ypix(max(m - c, ymin))
+            out.append(f'<line x1="{x:.1f}" y1="{y_hi:.1f}" x2="{x:.1f}" y2="{y_lo:.1f}" stroke="{color}" stroke-width="1.2"/>')
+            out.append(f'<line x1="{x-3:.1f}" y1="{y_hi:.1f}" x2="{x+3:.1f}" y2="{y_hi:.1f}" stroke="{color}" stroke-width="1.2"/>')
+            out.append(f'<line x1="{x-3:.1f}" y1="{y_lo:.1f}" x2="{x+3:.1f}" y2="{y_lo:.1f}" stroke="{color}" stroke-width="1.2"/>')
         out.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="{color}" stroke="#fcfcfb" stroke-width="2">'
                    f'<title>{label}: {m:.2f}% ± {c:.2f} at {r["results"]} results</title></circle>')
     lx, ly = pts[-1]
