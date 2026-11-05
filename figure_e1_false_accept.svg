@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" role="img" aria-label="False-accept rate of fabricated six-figure amounts against the number of tool results, three arms">
+<style>text{font-family:"IBM Plex Sans","Helvetica Neue",Arial,sans-serif;font-size:12px;fill:#52514e}.t{font-size:12px;fill:#0b0b0b}.g{stroke:#e5e5e0;stroke-width:1}.ax{stroke:#c3c2b7;stroke-width:1}</style>
+<rect x="0" y="0" width="720" height="400" fill="#fcfcfb"/>
+<line class="g" x1="64" y1="316.9" x2="696" y2="316.9"/>
+<text x="56" y="320.9" text-anchor="end">0.05%</text>
+<line class="g" x1="64" y1="285.6" x2="696" y2="285.6"/>
+<text x="56" y="289.6" text-anchor="end">0.1%</text>
+<line class="g" x1="64" y1="212.9" x2="696" y2="212.9"/>
+<text x="56" y="216.9" text-anchor="end">0.5%</text>
+<line class="g" x1="64" y1="181.6" x2="696" y2="181.6"/>
+<text x="56" y="185.6" text-anchor="end">1%</text>
+<line class="g" x1="64" y1="108.9" x2="696" y2="108.9"/>
+<text x="56" y="112.9" text-anchor="end">5%</text>
+<line class="g" x1="64" y1="77.6" x2="696" y2="77.6"/>
+<text x="56" y="81.6" text-anchor="end">10%</text>
+<line class="g" x1="64" y1="46.3" x2="696" y2="46.3"/>
+<text x="56" y="50.3" text-anchor="end">20%</text>
+<line class="ax" x1="64" y1="340" x2="696" y2="340"/>
+<text x="64.0" y="358" text-anchor="middle" class="t">1</text>
+<text x="64.0" y="374" text-anchor="middle">28</text>
+<text x="169.3" y="358" text-anchor="middle" class="t">2</text>
+<text x="169.3" y="374" text-anchor="middle">56</text>
+<text x="274.7" y="358" text-anchor="middle" class="t">4</text>
+<text x="274.7" y="374" text-anchor="middle">112</text>
+<text x="380.0" y="358" text-anchor="middle" class="t">8</text>
+<text x="380.0" y="374" text-anchor="middle">224</text>
+<text x="485.3" y="358" text-anchor="middle" class="t">11</text>
+<text x="485.3" y="374" text-anchor="middle">308</text>
+<text x="590.7" y="358" text-anchor="middle" class="t">18</text>
+<text x="590.7" y="374" text-anchor="middle">504</text>
+<text x="696.0" y="358" text-anchor="middle" class="t">29</text>
+<text x="696.0" y="374" text-anchor="middle">812</text>
+<text x="380" y="394" text-anchor="middle">tool results (top) and bases before the cap (bottom)</text>
+<text transform="translate(14,184) rotate(-90)" text-anchor="middle">fabricated amounts accepted (log scale)</text>
+<path d="M64.0,316.9 L169.3,295.7 L274.7,277.4 L380.0,248.0 L485.3,230.3 L590.7,236.0 L696.0,212.0" fill="none" stroke="#2a78d6" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="64.0" cy="316.9" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.05% ± 0.03 at 1 results</title></circle>
+<circle cx="169.3" cy="295.7" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.08% ± 0.07 at 2 results</title></circle>
+<circle cx="274.7" cy="277.4" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.12% ± 0.07 at 4 results</title></circle>
+<circle cx="380.0" cy="248.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.23% ± 0.07 at 8 results</title></circle>
+<circle cx="485.3" cy="230.3" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.34% ± 0.13 at 11 results</title></circle>
+<circle cx="590.7" cy="236.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.30% ± 0.09 at 18 results</title></circle>
+<circle cx="696.0" cy="212.0" r="4" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"><title>Production: operands from one result: 0.51% ± 0.22 at 29 results</title></circle>
+<text x="690.0" y="202.0" text-anchor="end" class="t">0.51%</text>
+<path d="M64.0,316.9 L169.3,273.8 L274.7,218.7 L380.0,153.1 L485.3,131.4 L590.7,129.1 L696.0,136.6" fill="none" stroke="#eb6834" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="64.0" cy="316.9" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 0.05% ± 0.03 at 1 results</title></circle>
+<circle cx="169.3" cy="273.8" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 0.13% ± 0.06 at 2 results</title></circle>
+<circle cx="274.7" cy="218.7" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 0.44% ± 0.14 at 4 results</title></circle>
+<circle cx="380.0" cy="153.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 1.88% ± 0.35 at 8 results</title></circle>
+<circle cx="485.3" cy="131.4" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 3.04% ± 0.31 at 11 results</title></circle>
+<circle cx="590.7" cy="129.1" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 3.20% ± 0.12 at 18 results</title></circle>
+<circle cx="696.0" cy="136.6" r="4" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"><title>Pool, 300-base cap: 2.71% ± 0.38 at 29 results</title></circle>
+<text x="690.0" y="126.6" text-anchor="end" class="t">2.71%</text>
+<path d="M64.0,316.9 L169.3,273.8 L274.7,218.7 L380.0,153.1 L485.3,130.1 L590.7,84.5 L696.0,47.4" fill="none" stroke="#1baf7a" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="64.0" cy="316.9" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 0.05% ± 0.03 at 1 results</title></circle>
+<circle cx="169.3" cy="273.8" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 0.13% ± 0.06 at 2 results</title></circle>
+<circle cx="274.7" cy="218.7" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 0.44% ± 0.14 at 4 results</title></circle>
+<circle cx="380.0" cy="153.1" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 1.88% ± 0.35 at 8 results</title></circle>
+<circle cx="485.3" cy="130.1" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 3.13% ± 0.31 at 11 results</title></circle>
+<circle cx="590.7" cy="84.5" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 8.58% ± 0.51 at 18 results</title></circle>
+<circle cx="696.0" cy="47.4" r="4" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"><title>Pool, uncapped: 19.51% ± 0.95 at 29 results</title></circle>
+<text x="690.0" y="37.4" text-anchor="end" class="t">19.51%</text>
+<line x1="76" y1="32" x2="100" y2="32" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="88" cy="32" r="3.5" fill="#2a78d6"/>
+<text x="108" y="36" class="t">Production: operands from one result</text>
+<line x1="76" y1="50" x2="100" y2="50" stroke="#eb6834" stroke-width="2"/>
+<circle cx="88" cy="50" r="3.5" fill="#eb6834"/>
+<text x="108" y="54" class="t">Pool, 300-base cap</text>
+<line x1="76" y1="68" x2="100" y2="68" stroke="#1baf7a" stroke-width="2"/>
+<circle cx="88" cy="68" r="3.5" fill="#1baf7a"/>
+<text x="108" y="72" class="t">Pool, uncapped</text>
+</svg>
